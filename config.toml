@@ -1,0 +1,23 @@
+baseURL = "https://draw-veling.com/"
+languageCode = "en-us"
+title = "Draw Veling"
+theme = "aether"
+publishDir = "docs"
+canonifyurls = true
+paginate = 5
+
+[params]
+brand = "Where to begin..."
+description = "your website's description"
+homeimg = "url to the image used for the home button - optional"
+#bgimg = "url to the image used for the background - optional"
+
+[[menu.main]]
+    name = "Home" #Name in the navigation bar
+    weight = 10 #The larger the weight, the more on the right this item will be
+    url = "/" #URL address
+[[menu.main]]
+    name = "Posts"
+    weight = 20
+    url = "/posts/"
+
